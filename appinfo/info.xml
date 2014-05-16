@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info>
+    <id>files_git</id>
+    <name>Files Git</name>
+    <description>Files Git support used for files_latexeditor App. It is require also gitolite server enabled please read documentation: https://github.com/arm2arm/files_git</description>
+    <version>1.0</version>
+    <licence>AGPL</licence>
+    <author>Arman Khalytyan</author>
+    <require>6</require>
+
+    <website>https://github.com/arm2arm/files_git</website>
+
+    <standalone />
+
+    <default_enable />
+    <shipped>false</shipped>
+</info>
+
