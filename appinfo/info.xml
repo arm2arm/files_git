@@ -7,11 +7,9 @@
     <licence>AGPL</licence>
     <author>Arman Khalytyan</author>
     <require>6</require>
-
     <website>https://github.com/arm2arm/files_git</website>
 
     <standalone />
-
     <default_enable />
     <shipped>false</shipped>
 </info>
