@@ -14,13 +14,15 @@ Require
 
 On CentOS 6.5:
 
-yum -y install git git-core gitolite
-su - gitolite
-git clone git://github.com/sitaramc/gitolite
-mkdir bin
-mkdir keys
-cp from admin server public key gitolite.pub
-gitolite/install -to /var/lib/gitolite/bin
-bin/gitolite setup -pk keys/gitolite.pub
-exit
+```bash
+  yum -y install git git-core gitolite
+  su - gitolite
+  git clone git://github.com/sitaramc/gitolite
+  mkdir bin
+  mkdir keys
+  cp from admin server public key gitolite.pub
+  gitolite/install -to /var/lib/gitolite/bin
+  bin/gitolite setup -pk keys/gitolite.pub
+  exit
+```
 
